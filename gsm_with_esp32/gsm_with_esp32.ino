@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_ID "TMPL2KdPziaiC"
 #define BLYNK_TEMPLATE_NAME "moisture"
-#define BLYNK_AUTH_TOKEN ""
+#define BLYNK_AUTH_TOKEN "cTYacVsoiYsHiR-WPngGLn9AtZdai_eT"
 
 #define BLYNK_PRINT Serial
 
@@ -13,9 +13,9 @@
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 HardwareSerial gsmSerial(2);
 
-char auth[] = "";
+char auth[] = "cTYacVsoiYsHiR-WPngGLn9AtZdai_eT";
 char ssid[] = "mark";
-char pass[] = "u8dg48j9";
+char pass[] = "KCPOiP2N";
 
 unsigned long lastSMSTime = 0;
 const unsigned long smsInterval = 600000; // 10 minutes in milliseconds
