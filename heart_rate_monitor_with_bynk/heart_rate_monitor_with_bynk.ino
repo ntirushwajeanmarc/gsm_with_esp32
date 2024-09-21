@@ -1,6 +1,6 @@
 #define BLYNK_TEMPLATE_ID "TMPL2s6kMMXni"
 #define BLYNK_TEMPLATE_NAME "HeartMonitoring"
-#define BLYNK_AUTH_TOKEN ""
+#define BLYNK_AUTH_TOKEN "JQQNVzmVFREuCRbDPjxVyeu_kf9_uJdR"
 
 
 
