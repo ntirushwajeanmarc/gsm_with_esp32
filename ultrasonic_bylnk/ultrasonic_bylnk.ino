@@ -25,6 +25,7 @@ LiquidCrystal_I2C i2cLcd(0x27, 16, 2);  // LCD I2C address and size (16x2)
 
 void setup()
 {
+  Wire.begin(21, 22);
   // Pin modes
   pinMode(trig, OUTPUT);  // Trig pin as Output
   pinMode(echo, INPUT);   // Echo pin as Input
